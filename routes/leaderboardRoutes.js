@@ -1,6 +1,6 @@
 
 import express from "express";
-import Volunteer from "../models/Volunteer.js";
+import Volunteer from "../models/volunteer.js";
 
 const router = express.Router();
 

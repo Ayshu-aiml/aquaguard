@@ -1,7 +1,7 @@
 
 import express from "express";
 import Report from "../models/Report.js";
-import Volunteer from "../models/Volunteer.js";
+import Volunteer from "../models/volunteer.js";
 
 const router = express.Router();
 
