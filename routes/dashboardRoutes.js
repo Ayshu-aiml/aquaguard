@@ -1,5 +1,5 @@
 import express from "express";
-import Volunteer from "../models/volunteer.js";
+import Volunteer from "../models/Volunteer.js";
 import Report from "../models/report.js";
 
 const router = express.Router();

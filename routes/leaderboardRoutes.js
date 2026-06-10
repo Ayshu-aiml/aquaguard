@@ -1,8 +1,6 @@
 
 import express from "express";
-import Volunteer from "../models/volunteer.js";
-
-const router = express.Router();
+import Volunteer from "../models/Volunteer.js";
 
 router.get("/", async (req, res) => {
 
