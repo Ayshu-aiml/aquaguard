@@ -1,9 +1,9 @@
 import express from "express";
-import Volunteer from "../models/Volunteer.js";
+import Volunteer from "../models/volunteer.js";
 
 const router = express.Router();
 
-// Register Volunteer
+// Register Volunteergit add .
 router.post("/", async (req, res) => {
   try {
     const volunteer = new Volunteer(req.body);
